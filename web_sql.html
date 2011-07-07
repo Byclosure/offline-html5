@@ -1,16 +1,15 @@
 <!DOCTYPE html> 
 
-<html lang="en" dir="ltr"> 
+<html lang="en" dir="ltr" manifest="example.manifest"> 
 <head>
-  <title>WebSQL - Example</title>
   <meta charset="utf-8" />
+  <title>WebSQL - Example</title>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="migrator.js"></script>
+  <link rel='stylesheet' href='style.css' type='text/css' media='all' />
 </head>
 
 <body>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.js"></script>
-  <script type="text/javascript" src="migrator.js"></script>
-  <link rel='stylesheet' href='style.css' type='text/css' media='all' />
-
   <script>
   $.fn.clearForm = function() {
     return this.each(function() {
